@@ -1,8 +1,4 @@
 console.log(navigator.userAgent);
-if (confirm("I would like to hear your feedback") == true)
-{
-	location.href("https://docs.google.com/forms/d/e/1FAIpQLSeA-6ko6ivasc6LnMX_RBvBSql2oIFOsXe37UQ4bu1o4WvC8A/viewform?usp=sf_link");
-}
 
 
   if (typeof(Storage) !== "undefined") {
@@ -60,4 +56,8 @@ function showDivs(n) {
   x[slideIndex-1].style.display = "block";  
 }
 
+if (confirm("I would like to hear your feedback") == true)
+{
+	location.href("https://docs.google.com/forms/d/e/1FAIpQLSeA-6ko6ivasc6LnMX_RBvBSql2oIFOsXe37UQ4bu1o4WvC8A/viewform?usp=sf_link");
+}
 
