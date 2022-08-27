@@ -1,0 +1,30 @@
+ <?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>TermiNateVader</title>
+  <link>http://beta.terminatevader.com/</link>
+  <description>Welcome to the official TermiNateVader website</description>
+  <item>
+    <title>My Plan For After College</title>
+    <link>https://beta.terminatevader.com/myplanforaftercollege</link>
+    <description>Hello everyone today I am going to talk about my plan for after college</description>
+  </item>
+  <item>
+    <title>Cool Dogs</title>
+    <link>https://beta.terminatevader.com/cooldogs</link>
+    <description>The first dog of the day is Barney</description>
+  </item>
+  <item>
+    <title>My Experience At Legoland Florida</title>
+    <link>https://beta.terminatevader.com/myexperienceatlegolandflorida</link>
+    <description>Hello everyone I am going to talk about my experience at Legoland Florida</description>
+  </item>
+    <item>
+    <title>My First Time In Gatlinburg And Pigeon Forge</title>
+    <link>https://beta.terminatevader.com/myfirsttimeingatlinburgandpigeonforge</link>
+    <description>Hello everyone today in this blog I am going to talk about my first time in Gatlinburg and Pigeon Forge</description>
+  </item>
+</channel>
+
+</rss> 
