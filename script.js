@@ -1,5 +1,11 @@
 console.log(navigator.userAgent);
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
 
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
 
   if (typeof(Storage) !== "undefined") {
     if (localStorage.visitcount) {
