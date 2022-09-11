@@ -1,12 +1,16 @@
 console.log(navigator.userAgent);
+ document.getElementById("close").style.display = "none";
 function openForm() {
   document.getElementById("myForm").style.display = "block";
+  document.getElementById("open").style.display = "none";
+  document.getElementById("close").style.display = "block";
 }
 
 function closeForm() {
   document.getElementById("myForm").style.display = "none";
+  document.getElementById("close").style.display = "none";
+  document.getElementById("open").style.display = "block";
 }
-
   if (typeof(Storage) !== "undefined") {
     if (localStorage.visitcount) {
       localStorage.visitcount = Number(localStorage.visitcount)+1;
