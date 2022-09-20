@@ -28,11 +28,6 @@ window.addEventListener('load', function(){
             plusDivs(-1)
 	}
     }
-	 function handleswipe(isleftswipe){
-        if (isleftswipe){
-            plusDivs(1)
-	}
-    }
  
     touchsurface.addEventListener('touchstart', function(e){
         touchsurface.innerHTML = ''
