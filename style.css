@@ -5,7 +5,6 @@ body{
 figcaption
 {
 text-align:center;
-font-size:50%;
 font-family: 'Open Sans'
 }
 @media (prefers-color-scheme: dark) {
@@ -95,6 +94,10 @@ font-family: 'Open Sans'
   margin-top: 10%;
 }
  @media (orientation: landscape){
+   figcaption
+   {
+     font-size:50%;
+}
 a:link {font-size:2vw;}
 a:visited {font-size:2vw;}
 a:hover {font-size:2vw;}
@@ -143,7 +146,10 @@ a:visited {font-size:4vw;}
 a:hover {font-size:4vw;}
 a:active {font-size:4vw;}
 .mySlides {display:none;width:100%;}
-
+   figcaption
+ {
+     font-size:100%;
+}
    .topnav a {
   font-size: 7vw;
   
