@@ -1,7 +1,21 @@
 body{
   scroll-behavior:smooth;
 }
+.icon-bar {
+  width: 100%;
+ position:fixed;
+  overflow: auto;
+  bottom:0;
+}
 
+.icon-bar a {
+  float: left;
+  width: 10%;
+  text-align: center;
+  
+  color: white;
+  font-size: 100%;
+}
 figcaption
 {
 text-align:center;
@@ -16,6 +30,18 @@ font-family: 'Open Sans'
 	a:visited {text-decoration: none; color: white; font-family: 'Open Sans';}
 	a:hover {text-decoration: none; color: white; font-family: 'Open Sans';}
 	a:active {text-decoration: none; color: white; font-family: 'Open Sans';}
+  .icon-bar {
+ background-color:#121212;
+}
+
+.icon-bar a {
+  float: left;
+  width: 10%;
+  text-align: center;
+  
+  color: #ededed;;
+  font-size: 100%;
+}
   figcaption
   {
 	color: #ededed;
