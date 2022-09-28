@@ -39,7 +39,7 @@ font-family: 'Open Sans'
   width: 10%;
   text-align: center;
   
-  color: #ededed;;
+  color: #ededed;
   font-size: 100%;
 }
   figcaption
@@ -87,6 +87,19 @@ font-family: 'Open Sans'
 	{
 	color: #121212
 	}
+	  .icon-bar {
+ background-color:#ededed;
+		  
+}
+
+.icon-bar a {
+  float: left;
+  width: 10%;
+  text-align: center;
+  
+  color: #121212;
+  font-size: 100%;
+}
 	.topnav {
   background-color: #ededed;
   overflow: hidden;
