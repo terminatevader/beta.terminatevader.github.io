@@ -175,10 +175,7 @@ a:active {font-size:2vw;}
 }
  @media (orientation:portrait){
    
-a:link {font-size:4vw;}
-a:visited {font-size:4vw;}
-a:hover {font-size:4vw;}
-a:active {font-size:4vw;}
+
 .mySlides {display:none;width:100%;}
    figcaption
  {
@@ -188,8 +185,8 @@ a:active {font-size:4vw;}
   font-size: 7vw;
   
 }
-   h1{font-size: 6vw;}
-   p{font-size:5vw;}
+   h1{font-size: 3vh;}
+   p{font-size:2vh;}
    .center{
      width:100%;
    }
