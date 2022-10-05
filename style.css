@@ -6,6 +6,7 @@ body{
  position:fixed;
   overflow: auto;
   bottom:0;
+
 }
 
 .icon-bar a {
@@ -14,7 +15,7 @@ body{
   text-align: center;
   
   color: white;
-  font-size: 100%;
+  
 }
 figcaption
 {
@@ -130,12 +131,13 @@ font-family: 'Open Sans'
  @media (orientation: landscape){
    figcaption
    {
-     font-size:50%;
+     font-size:1vw
 }
-a:link {font-size:2vw;}
-a:visited {font-size:2vw;}
-a:hover {font-size:2vw;}
-a:active {font-size:2vw;}
+   .icon-bar
+   {
+    font-size: 1.8vw;
+   }
+
 .mySlides {display:none;width:50%;margin-left:auto; margin-right:auto;}
 .card1
 	 {
@@ -174,18 +176,21 @@ a:active {font-size:2vw;}
    }
 }
  @media (orientation:portrait){
-   
-
+   .icon-bar
+   {
+    font-size: 1.8vh;
+    
+   }
 .mySlides {display:none;width:100%;}
    figcaption
  {
-     font-size:100%;
+     font-size:2vh;
 }
    .topnav a {
-  font-size: 7vw;
+  font-size: 5vh;
   
 }
-   h1{font-size: 3vh;}
+   h1{font-size: 3vh; margin-top:10vh}
    p{font-size:2vh;}
    .center{
      width:100%;
