@@ -137,13 +137,8 @@ font-family: 'Open Sans'
    {
     font-size: 1.8vw;
    }
-   .blog{
-     font-size:1vw;
-     margin-right:10%;
-    
-    
-   }
-.mySlides {display:none;width:50%;margin-left:auto; margin-right:1%;float:left;margin-top:2%;}
+
+.mySlides {display:none;width:50%;margin-left:auto; margin-right:auto;}
 .card1
 	 {
 		 display:block;
@@ -151,17 +146,13 @@ font-family: 'Open Sans'
 		 margin-right:auto;
 		 margin-left:auto;
 	 }
-   h1{
-     margin-right:10%;
-  
-   }
    .topnav a {
 
   font-size: 4vw;
 
 }
 	 .header{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-size: 3vw;}
-   p{font-size:2vw;margin-right:10%;}
+   p{font-size:2vw;}
    h1:hover{overflow:visible;white-space: normal;}
 	 .image
 	 {
