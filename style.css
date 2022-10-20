@@ -156,7 +156,7 @@ font-family: 'Open Sans'
    p{font-size:2vw; }
    .blog{
      font-size:1vw;
-    
+    margin-right:10vw;
     
    }
    .side:after{
@@ -190,7 +190,6 @@ font-family: 'Open Sans'
    .icon-bar
    {
     font-size: 1.8vh;
-	display:none;
     
    }
 .mySlides {display:none;width:100%;}
