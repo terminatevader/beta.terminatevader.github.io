@@ -155,9 +155,10 @@ font-family: 'Open Sans'
 	 .header{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-size: 3vw;}
    p{font-size:2vw; }
    .blog{
-     font-size:1vw;
-    margin-right:10%;
-    
+     font-size:2vw;
+
+    height:275px;
+     overflow:auto;
    }
    .side:after{
        content: "";
