@@ -131,7 +131,8 @@ font-family: 'Open Sans'
  @media (orientation: landscape){
    figcaption
    {
-     font-size:1vw
+     font-size:1vw;
+     
 }
    .icon-bar
    {
@@ -146,6 +147,7 @@ font-family: 'Open Sans'
 		 width:50%;
 		 margin-right:auto;
 		 margin-left:auto;
+    
 	 }
    .topnav a {
 
@@ -178,7 +180,9 @@ font-family: 'Open Sans'
   margin-bottom: 10%;
   margin-right: 1%;
   margin-left: 1%;
-		
+		 border-style:solid;
+     
+     border-color:white;
 }
 	
 
