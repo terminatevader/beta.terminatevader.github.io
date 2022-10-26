@@ -129,6 +129,7 @@ font-family: 'Open Sans'
   margin-top: 10%;
 }
  @media (orientation: landscape){
+  
    figcaption
    {
      font-size:1vw;
@@ -139,7 +140,7 @@ font-family: 'Open Sans'
     font-size: 1.8vw;
    }
 
-.mySlides {display:none;width:50%;margin-left:auto; margin-right:1%;float:left;}
+.mySlides {display:none;width:50%;margin-left:auto; margin-right:1%;float:left; }
    
 .card1
 	 {
@@ -155,17 +156,20 @@ font-family: 'Open Sans'
 
 }
 	 .header{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-size: 3vw;}
-   p{font-size:2vw; }
+   p{margin-top:0px;}
    .blog{
      font-size:2vw;
 
     height:275px;
      overflow:auto;
+     border-style:solid;
+     border-color:white;
    }
    .side:after{
        content: "";
   clear: both;
   display: table;
+     
 }
    h1:hover{overflow:visible;white-space: normal;}
 	 .image
@@ -192,12 +196,16 @@ font-family: 'Open Sans'
    }
 }
  @media (orientation:portrait){
+   .arrow
+   {
+     display:none;
+   }
    .icon-bar
    {
     font-size: 1.8vh;
     display:none;
    }
-.mySlides {display:none;width:100%;}
+.mySlides {display:none;width:100%; margin-top:5vh;}
    figcaption
  {
      font-size:2vh;
@@ -206,6 +214,7 @@ font-family: 'Open Sans'
   font-size: 5vh;
   
 }
+   
    h1{font-size: 3vh; margin-top:10vh}
    p{font-size:2vh;}
    .center{
