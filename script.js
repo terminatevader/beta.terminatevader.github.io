@@ -1,8 +1,8 @@
 console.log(navigator.userAgent);
 if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-if(screen.availHeight > screen.availWidth){
+
     window.screen.orientation.lock("portrait")
-}
+
 }
 //window.location.replace("https://www.terminatevader.com/");
   if (typeof(Storage) !== "undefined") {
