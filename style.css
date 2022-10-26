@@ -140,7 +140,7 @@ font-family: 'Open Sans'
     font-size: 1.8vw;
    }
 
-.mySlides {display:none;width:50%;margin-left:auto; margin-right:1%;float:left; }
+.mySlides {display:none;height:50vh;margin-left:auto; margin-right:1%;float:left; }
    
 .card1
 	 {
@@ -160,7 +160,7 @@ font-family: 'Open Sans'
    .blog{
      font-size:2vw;
 
-    height:275px;
+    height:50vh;
      overflow:auto;
      border-style:solid;
      border-color:white;
@@ -199,8 +199,7 @@ font-family: 'Open Sans'
     .blog{
      font-size:2vw;
 
-    height:10vh;
-     overflow:auto;
+   
       
      
    }
