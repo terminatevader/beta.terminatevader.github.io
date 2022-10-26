@@ -1,8 +1,10 @@
 console.log(navigator.userAgent);
 if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+	if (window.matchMedia("(orientation: landscape)").matches) {
 
-    window.screen.orientation.lock("portrait")
+    document.body.style.display = "none";
 
+}
 }
 //window.location.replace("https://www.terminatevader.com/");
   if (typeof(Storage) !== "undefined") {
