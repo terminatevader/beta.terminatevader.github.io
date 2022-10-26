@@ -199,8 +199,9 @@ font-family: 'Open Sans'
     .blog{
      font-size:2vw;
 
-    height:25vh;
+    height:10vh;
      overflow:auto;
+      
      
    }
    p{margin-top:0;}
