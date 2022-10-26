@@ -1,6 +1,6 @@
 console.log(navigator.userAgent);
 if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-	if (window.matchMedia("(orientation: landscape)").matches) {
+	if (window.innerWidth > window.innerHeight) {
 
     document.body.style.display = "none";
 
