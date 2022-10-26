@@ -31,9 +31,6 @@ font-family: 'Open Sans'
 	a:visited {text-decoration: none; color: white; font-family: 'Open Sans';}
 	a:hover {text-decoration: none; color: white; font-family: 'Open Sans';}
 	a:active {text-decoration: none; color: white; font-family: 'Open Sans';}
-	.blog{border-color:#ededed;}
-	.card{	border-color:#ededed;
-}
   .icon-bar {
  background-color:#121212;
 }
@@ -85,13 +82,6 @@ font-family: 'Open Sans'
 	a:hover {text-decoration: none; color: #121212; font-family: 'Open Sans';}
 	a:active {text-decoration: none; color: #121212; font-family: 'Open Sans';}
 	h2{color: #121212;text-align: center;  font-size:1000%; font-family: 'Open Sans';}
-	.blog{
-	border-color:#121212;
-	}
-	.card{
-		border-color:#121212;
-
-	}
 	figcaption
 	{
 	color: #121212
@@ -169,11 +159,11 @@ font-family: 'Open Sans'
    p{margin-top:0px;}
    .blog{
      font-size:2vw;
-
+margin-right:5vw;
     height:50vh;
      overflow:auto;
      border-style:solid;
-     
+     border-color:white;
    }
    .side:after{
        content: "";
@@ -196,7 +186,7 @@ font-family: 'Open Sans'
   margin-left: 1%;
 		 border-style:solid;
      
-   
+     border-color:white;
 }
 	
 
