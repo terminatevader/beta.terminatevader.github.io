@@ -31,10 +31,19 @@ font-family: 'Open Sans'
 	a:visited {text-decoration: none; color: white; font-family: 'Open Sans';}
 	a:hover {text-decoration: none; color: white; font-family: 'Open Sans';}
 	a:active {text-decoration: none; color: white; font-family: 'Open Sans';}
+	
+	figcaption{
+		border-color:#ededed;
+	}
+	.blog{
+		border-color:#ededed;
+	}
   .icon-bar {
  background-color:#121212;
 }
-
+  .image{
+    border-color: #ededed;
+  }
 .icon-bar a {
 
   
@@ -82,9 +91,18 @@ font-family: 'Open Sans'
 	a:hover {text-decoration: none; color: #121212; font-family: 'Open Sans';}
 	a:active {text-decoration: none; color: #121212; font-family: 'Open Sans';}
 	h2{color: #121212;text-align: center;  font-size:1000%; font-family: 'Open Sans';}
+	.image{
+    border-color: #121212;
+  }
+	figcaption{
+		border-color:#121212;
+	}
+	.blog{
+		border-color:#121212;
+	}
 	figcaption
 	{
-	color: #121212
+	color: #121212;
 	}
 	  .icon-bar {
  background-color:#ededed;
@@ -133,6 +151,8 @@ font-family: 'Open Sans'
    figcaption
    {
      font-size:1vw;
+     border-style:solid;
+     border-radius:0 0 1vw 1vw
      
 }
    .icon-bar
@@ -163,7 +183,7 @@ margin-right:5vw;
     height:50vh;
      overflow:auto;
      border-style:solid;
-     border-color:white;
+   
    }
    .side:after{
        content: "";
@@ -175,7 +195,8 @@ margin-right:5vw;
 	 .image
 	 {
 	    width:100%;
-    
+    border-style: solid;
+     border-radius: 1vw 1vw 0 0;
 	 }
 
  	 .card {
@@ -184,9 +205,9 @@ margin-right:5vw;
   margin-bottom: 10%;
   margin-right: 1%;
   margin-left: 1%;
-		 border-style:solid;
+		 
      
-     border-color:white;
+     
 }
 	
 
