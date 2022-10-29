@@ -1,8 +1,5 @@
-console.log(navigator.userAgent);
-if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-screen.orientation.lock("portrait")
-}
-//window.location.replace("https://www.terminatevader.com/");
+
+window.location.replace("https://www.terminatevader.com/");
   if (typeof(Storage) !== "undefined") {
     if (localStorage.visitcount) {
       localStorage.visitcount = Number(localStorage.visitcount)+1;
