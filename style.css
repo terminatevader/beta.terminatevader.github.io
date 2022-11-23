@@ -26,40 +26,40 @@ text-align:center;
 font-family: 'Open Sans'
 }
 @media (prefers-color-scheme: dark) {
-	hr{height:2px;background-color:#ededed; border: none;}
-	h1{color: #ededed; background-color:#121212; text-align: center;  font-family: 'Open Sans';}
-	p{color: #ededed; background-color:#121212; text-align: center;  font-family: 'Open Sans';}
-	body{background-color: #121212; /*background-image: url("https://unblast.com/wp-content/uploads/2018/10/Sky-Stars-Pattern.jpg");background-size: cover; background-position: center;*/ padding-top:10vw;padding-bottom:10vw; }
-	a:link {text-decoration: none; color: white;font-family: 'Open Sans';}
-	a:visited {text-decoration: none; color: white; font-family: 'Open Sans';}
-	a:hover {text-decoration: none; color: white; font-family: 'Open Sans';}
-	a:active {text-decoration: none; color: white; font-family: 'Open Sans';}
+	
+	h1{color: #fffeff;  text-align: center;  font-family: 'Open Sans';}
+	p{color: #fffeff; text-align: center;  font-family: 'Open Sans';}
+	body{background-color: #000100; /*background-image: url("https://unblast.com/wp-content/uploads/2018/10/Sky-Stars-Pattern.jpg");background-size: cover; background-position: center;*/ padding-top:10vw;padding-bottom:10vw; }
+	a:link {text-decoration: none; color: #fffeff;font-family: 'Open Sans';}
+	a:visited {text-decoration: none; color: #fffeff; font-family: 'Open Sans';}
+	a:hover {text-decoration: none; color: #fffeff; font-family: 'Open Sans';}
+	a:active {text-decoration: none; color: #fffeff; font-family: 'Open Sans';}
 	
 	figcaption{
-		border-color:#ededed;
+		border-color:#fffeff;
 	}
 	.blog{
-		border-color:#ededed;
+		border-color:#fffeff;
 	}
   .icon-bar {
- background-color:#121212;
+ background-color:#000100;
 }
   .image{
-    border-color: #ededed;
+    border-color: #fffeff;
   }
 .icon-bar a {
 
   
-  color: #ededed;
+  color: #fffeff;
 
 }
   figcaption
   {
-	color: #ededed;
+	color: #fffeff;
   }
-	h2{color: #ededed;text-align: center;  font-size:1000%; font-family: 'Open Sans';}
+	h2{color: #fffeff;text-align: center;  font-size:1000%; font-family: 'Open Sans';}
 	.topnav {
-  background-color: #121212;
+  background-color: #000100;
   overflow: hidden;
   top: 0;
   width: 100%;
@@ -74,7 +74,7 @@ font-family: 'Open Sans'
 .topnav a {
   
    top: 10px;
-  color: #ededed;
+  color: #fffeff;
   text-align: center;
   text-decoration: none;
   font-family: 'Open Sans';
@@ -85,40 +85,40 @@ font-family: 'Open Sans'
 
 }
 @media (prefers-color-scheme: light) {
-	hr{height:2px;background-color:#121212; border: none;}
-	h1{color: #121212; background-color:#ededed; text-align: center;  font-family: 'Open Sans';}
-	p{color: #121212; background-color:#ededed; text-align: center;  font-family: 'Open Sans';}
-	body{background-color: #ededed; /*background-image: url("https://unblast.com/wp-content/uploads/2018/10/Sky-Stars-Pattern.jpg");background-size: cover; background-position: center;*/ padding-top:10vw;padding-bottom:10vw; }
-	a:link {text-decoration: none; color: #121212;font-family: 'Open Sans';}
-	a:visited {text-decoration: none; color: #121212; font-family: 'Open Sans';}
-	a:hover {text-decoration: none; color: #121212; font-family: 'Open Sans';}
-	a:active {text-decoration: none; color: #121212; font-family: 'Open Sans';}
-	h2{color: #121212;text-align: center;  font-size:1000%; font-family: 'Open Sans';}
+	
+	h1{color: #000100;  text-align: center;  font-family: 'Open Sans';}
+	p{color: #000100; text-align: center;  font-family: 'Open Sans';}
+	body{background-color: #fffeff; /*background-image: url("https://unblast.com/wp-content/uploads/2018/10/Sky-Stars-Pattern.jpg");background-size: cover; background-position: center;*/ padding-top:10vw;padding-bottom:10vw; }
+	a:link {text-decoration: none; color: #000100;font-family: 'Open Sans';}
+	a:visited {text-decoration: none; color: #000100; font-family: 'Open Sans';}
+	a:hover {text-decoration: none; color: #000100; font-family: 'Open Sans';}
+	a:active {text-decoration: none; color: #000100; font-family: 'Open Sans';}
+	h2{color: #000100;text-align: center;  font-size:1000%; font-family: 'Open Sans';}
 	.image{
-    border-color: #121212;
+    border-color: #000100;
   }
 	figcaption{
-		border-color:#121212;
+		border-color:#000100;
 	}
 	.blog{
-		border-color:#121212;
+		border-color:#000100;
 	}
 	figcaption
 	{
-	color: #121212;
+	color: #000100;
 	}
 	  .icon-bar {
- background-color:#ededed;
+ background-color:#fffeff;
 		  
 }
 
 .icon-bar a {
 
   
-  color: #121212;
+  color: #000100;
 }
 	.topnav {
-  background-color: #ededed;
+  background-color: #fffeff;
   overflow: hidden;
   top: 0;
   width: 100%;
