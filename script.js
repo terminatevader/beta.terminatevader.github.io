@@ -17,7 +17,16 @@ topnav.textContent = "TermiNateVader";
 	
 var slideIndex = 1;
 showDivs(slideIndex);
-
+function chat{
+	if(document.getElementById("chat").style.display = 'none')
+	{
+	document.getElementById("chat").style.display = 'block';
+	}
+	else
+	{
+		document.getElementById("chat").style.display = 'none';
+	}
+}
 function plusDivs(n) {
   showDivs(slideIndex += n);
 }
