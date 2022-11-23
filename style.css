@@ -232,7 +232,8 @@ margin-right:5vw;
      font-size:2vw;
 
    
-      
+      .chat{
+	      display:none;
      
    }
    p{margin-top:0;}
