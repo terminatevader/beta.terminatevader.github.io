@@ -10,8 +10,15 @@ else {
   } 
  
 const topnav = document.getElementById("topnav");
-topnav.textContent = "TermiNateVader";
+if (/Nintendo Switch/i.test(navigator.userAgent))
+{
+	topnav.textContent = "You Are A Geek"
+}
+else
+{
+	topnav.textContent = "TermiNateVader";
 
+}
 
 			
 	
