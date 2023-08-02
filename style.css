@@ -1,38 +1,62 @@
-body{
-  scroll-behavior:smooth;
+html{
+  scroll-behavior: smooth;
+  scrollbar-color: white black;
+ scrollbar-width: thin;
 }
+/* width */
+::-webkit-scrollbar {
+  width: thin;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: black; 
+}
+
+
 .fa-facebook{
-  color: #3b5998;
+  color:#1778f2;
 }
 .fa-instagram{
-  color:#8a3ab9;
+    color:transparent;
+  background-clip: text;
+	-webkit-background-clip:text;
+  background-image: linear-gradient(#405DE6, #5B51D8,#833AB4,#C13584,#E1306C,#FD1D1D,#F56040,#F77737,#FCAF45,#FFDC80);
 }
 .fa-twitter{
-  color: #00acee;
+  color: #1da1f2;
 }
 .fa-youtube{
   color:#FF0000;
 }
 .fa-twitch{
-  color:#6441a5;
+  color:#6441A4;
 }
 .fa-reddit{
-  color:#FF5700;
+  color:#ff4500;
 }
 .fa-snapchat{
-  color:#FFFC00;
+  color:#fffc00;
 }
 
 .fa-steam{
-  color: #00adee
+   color:#c7d5e0;
 }
 .fa-map{
-  color:#34A56F;
+  color:transparent;
+  background-clip: text;
+ -webkit-background-clip:text;
+  background-image: linear-gradient(#9ddbff,#c3f4fe,#fefded,#e8e1c9,#aad1ac,#cbe7be);
 }
 .icon-bar {
   width: 100%;
  position:fixed;
-  overflow: hidden;
+  overflow: auto;
   bottom:0;
 
 }
@@ -48,43 +72,47 @@ body{
 figcaption
 {
 text-align:center;
-font-family: 'Open Sans'
+font-family: 'Roboto Mono', monospace;
 }
-@media (prefers-color-scheme: dark) {
+
 	
-	h1{color: #fffeff;  text-align: center;  font-family: 'Open Sans';}
-	p{color: #fffeff; text-align: center;  font-family: 'Open Sans';}
-	body{background-color: #000100; /*background-image: url("https://unblast.com/wp-content/uploads/2018/10/Sky-Stars-Pattern.jpg");background-size: cover; background-position: center;*/ padding-top:10vw;padding-bottom:10vw; }
-	a:link {text-decoration: none; color: #fffeff;font-family: 'Open Sans';}
-	a:visited {text-decoration: none; color: #fffeff; font-family: 'Open Sans';}
-	a:hover {text-decoration: none; color: #fffeff; font-family: 'Open Sans';}
-	a:active {text-decoration: none; color: #fffeff; font-family: 'Open Sans';}
+	h1{color: white;  background-color:black; text-align: center; font-family: 'Roboto Mono', monospace;}
+	p{color: white; text-align: center;  font-family: 'Roboto Mono', monospace;}
+	body{background-color: black; /*background-image: url("https://www.ci.sandy.or.us/sites/default/files/imageattachments/library/page/14271/hearts-37308_1280.png");*/background-repeat: repeat; background-attachment: fixed; background-size:contain; background-position: center center;  padding-top:10vh; padding-bottom:10vh;}
+	a:link {text-decoration: none; color: black;font-family: 'Roboto Mono', monospace;}
+	a:visited {text-decoration: none; color: black; font-family: 'Roboto Mono', monospace;}
+	a:hover {text-decoration: none; color: black; font-family: 'Roboto Mono', monospace;}
+	a:active {text-decoration: none; color: black; font-family: 'Roboto Mono', monospace;}
 	
 	figcaption{
-		border-color:#fffeff;
+    background-color:black;
 	}
 	.blog{
-		border-color:#fffeff;
+		border-color:white;
+    background-color:black;
+    scroll-behavior: smooth;
+    scrollbar-color: white black;
+    scrollbar-width: thin;
 	}
   .icon-bar {
- background-color:#000100;
+ background-color:black;
 }
   .image{
-    border-color: #fffeff;
+    border-color: white;
   }
 .icon-bar a {
 
   
-  color: #fffeff;
+  color: white;
 
 }
   figcaption
   {
-	color: #fffeff;
+	color: white;
   }
-	h2{color: #fffeff;text-align: center;  font-size:1000%; font-family: 'Open Sans';}
+	h2{color: black;text-align: center;  font-size:1000%; font-family: 'Roboto Mono', monospace;}
 	.topnav {
-  background-color: #000100;
+  background-color: black;
   overflow: hidden;
   top: 0;
   width: 100%;
@@ -99,75 +127,17 @@ font-family: 'Open Sans'
 .topnav a {
   
    top: 10px;
-  color: #fffeff;
+  color: white;
   text-align: center;
   text-decoration: none;
-  font-family: 'Open Sans';
+  font-family: 'Roboto Mono', monospace;;
   display:block;
 }
 
 
 
-}
-@media (prefers-color-scheme: light) {
-	
-	h1{color: #000100;  text-align: center;  font-family: 'Open Sans';}
-	p{color: #000100; text-align: center;  font-family: 'Open Sans';}
-	body{background-color: #fffeff; /*background-image: url("https://unblast.com/wp-content/uploads/2018/10/Sky-Stars-Pattern.jpg");background-size: cover; background-position: center;*/ padding-top:10vw;padding-bottom:10vw; }
-	a:link {text-decoration: none; color: #000100;font-family: 'Open Sans';}
-	a:visited {text-decoration: none; color: #000100; font-family: 'Open Sans';}
-	a:hover {text-decoration: none; color: #000100; font-family: 'Open Sans';}
-	a:active {text-decoration: none; color: #000100; font-family: 'Open Sans';}
-	h2{color: #000100;text-align: center;  font-size:1000%; font-family: 'Open Sans';}
-	.image{
-    border-color: #000100;
-  }
-	figcaption{
-		border-color:#000100;
-	}
-	.blog{
-		border-color:#000100;
-	}
-	figcaption
-	{
-	color: #000100;
-	}
-	  .icon-bar {
- background-color:#fffeff;
-		  
-}
-
-.icon-bar a {
-
-  
-  
-}
-	.topnav {
-  background-color: #fffeff;
-  overflow: hidden;
-  top: 0;
-  width: 100%;
-  z-index:1;
-  position:fixed;
-  display: flex;
- justify-content: center;
-
-   
-}
-
-.topnav a {
-  
-   top: 10px;
-  color: #121212;
-  text-align: center;
-  text-decoration: none;
-  font-family: 'Open Sans';
-  display:block;
-}
 
 
-
-}
  .yt
 {
   
@@ -178,19 +148,17 @@ font-family: 'Open Sans'
   
    figcaption
    {
-     font-size:1vw;
-     border-style:solid;
-     border-radius:0 0 1vw 1vw
+     font-size:0.9vw;
      
+ 
 }
+  
    .icon-bar
    {
     font-size: 2vw;
-      top:6vw;
-     height:3vw;
    }
 
-.mySlides {display:none;height:50vh;margin-left:auto; margin-right:1%;float:left; }
+.mySlides {display:none;height:50vh;margin-left:-16vw; margin-right:1vw;float:left; }
    
 .card1
 	 {
@@ -209,11 +177,10 @@ font-family: 'Open Sans'
    p{margin-top:0px;}
    .blog{
      font-size:2vw;
-margin-right:5vw;
+margin-right:1vw;
     height:50vh;
      overflow:auto;
-     border-style:solid;
-    
+    border-style: solid;
    
    }
    .side:after{
@@ -226,14 +193,13 @@ margin-right:5vw;
 	 .image
 	 {
 	    width:100%;
-    border-style: solid;
-     border-radius: 1vw 1vw 0 0;
 	 }
 
  	 .card {
+     margin-top:25vh;;
   width:23%;
   float:left;
-  margin-bottom: 10%;
+ 
   margin-right: 1%;
   margin-left: 1%;
 		 
@@ -260,14 +226,13 @@ margin-right:5vw;
    .icon-bar
    {
     font-size: 2.5vh;
-   top:7vh;
-     height:4vh;
+   
    }
- 
 .mySlides {display:none;width:100%; margin-top:5vh;}
    figcaption
  {
-     font-size:2vh;
+     font-size:1.5vh;
+  
 }
    .topnav a {
   font-size: 5vh;
@@ -288,6 +253,8 @@ margin-right:5vw;
  width:100%;
   float:left;
   margin-bottom: 100px;
+     
+     
  
 }
 	 	 .card1 {
